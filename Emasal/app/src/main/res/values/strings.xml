@@ -1,0 +1,285 @@
+<resources>
+    <!-- GENERAL STRINGS-->
+    <string name="app_name">Emasal</string>
+    <string name="app_name_version">Emasal App - v%1$s</string>
+    <string name="text_no_internet_connection">No existe conexión a internet</string>
+    <string name="text_no_network_available">No existen redes disponibles</string>
+    <string name="text_error_checking_internet_connection">Error verificando la conexión a internet. Por favor revise su conexión.</string>
+    <string name="text_getting_user_information">Obteniendo la información del usuario&#8230;</string>
+    <string name="text_getting_user_costume_settings">Obteniendo la configuración del usuario&#8230;</string>
+    <string name="text_getting_data_base_file">Preparando el reporte de errores&#8230;</string>
+    <string name="text_sending_data_base_file">Enviando el respaldo de su base de datos&#8230;</string>
+    <string name="text_error_getting_data_base_file">Error al crear su archivo de respaldo de base de datos</string>
+    <string name="text_error_sending_data_base_file">Error al enviar su archivo de respaldo de base de datos</string>
+    <string name="text_data_base_file_sent">Su reporte de errores fue enviado con éxito a SalesForce</string>
+
+    <!-- DRAWER STRINGS-->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="my_information">Mi información</string>
+    <string name="my_accounts">Mis cuentas</string>
+    <string name="sync">Enviar reporte de errores</string>
+    <string name="clean_data_base">Limpiar la base de datos</string>
+    <string name="exit">Salir</string>
+    <string name="no_user_profile">No fue posible obtener el perfil del usuario.\nFavor chequee su conexión a internet, si el problema persiste favor contactar al administrador del sistema Salesforce.</string>
+    <string name="no_user_profile_id">No fue posible obtener el id del perfil del usuario.\nFavor chequee su conexión a internet, si el problema persiste favor contactar al administrador del sistema Salesforce.</string>
+    <string name="no_custom_settings">No fue posible obtener los ajustes personalizados.\nFavor chequee su conexión a internet, si el problema persiste favor contactar al administrador del sistema Salesforce.
+    </string>
+
+    <!-- MAIN ACTIVITY STRINGS-->
+    <string name="emasal">Emasal</string>
+    <string name="start_route">Iniciar ruta</string>
+    <string name="start_route_message">¿Desea iniciar la Ruta?</string>
+    <string name="start">Iniciar</string>
+    <string name="end_route_message">¿Desea finalizar la Ruta?</string>
+    <string name="end">Finalizar</string>
+    <string name="connected_like_sales_person">Conectado como vendedor</string>
+    <string name="connected_like_technical">Conectado como técnico</string>
+    <string name="getting_your_location">Obteniendo su ubicación&#8230;</string>
+    <string name="please_wait">Por favor espere&#8230;</string>
+    <string name="saving_data">Guardando sus datos&#8230;</string>
+    <string name="updating_work_order_state">Actualizando el estado de la orden de trabajo&#8230;</string>
+
+    <!-- MAP ACTIVITY STRINGS-->
+    <string name="title_activity_check_in_map">Emasal</string>
+    <string name="location_permission_rationale">La aplicación debe acceder a la ubicación del
+        dispositivo para poder
+    realizar tareas de check in y check out, tambien debe poder escribir en memoria externa para
+        guardar las firmas electrónicas
+    </string>
+    <string name="check_in">Check in</string>
+    <string name="check_out">Check out</string>
+    <string name="checking_is_in_progress">Check in en progreso</string>
+    <string name="no_user_location_available">No fue posible obtener la ubicación del usuario.</string>
+    <string name="accept">Aceptar</string>
+    <string name="time">Tiempo</string>
+    <string name="latitude">Latitude:</string>
+    <string name="lang">Longitud:</string>
+    <string name="initial_time">00:00:00</string>
+    <string name="gps_disable_message">Su GPS está apagado. Debe encenderlo para acceder a su ubicación actual/</string>
+    <string name="cancel">Cancelar</string>
+    <string name="go_to_settings">Ir a la configuración</string>
+    <string name="text_enable">Encender</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="connection_failed_play_services_message">Algo salió mal tratando de conectar a
+        Google Play Services</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="location_permission_denied">We need your location</string>
+    <string name="start_tracker">Start tracker</string>
+    <string name="view_history_list">View History List</string>
+    <string name="stop_tracker">Stop Tracker</string>
+    <string name="history">Recorrido</string>
+    <string name="date">Fecha</string>
+    <string name="coordinates">Coordenadas:</string>
+    <string name="address">Dirección:</string>
+    <string name="account_name_b">Nombre del cliente:</string>
+    <string name="start_time">Hora inicio:</string>
+    <string name="finish_time">Hora fin:</string>
+    <string name="visit_name">Nombre de la visita:</string>
+    <string name="finalize_route">Finalizar ruta</string>
+    <string name="distance_traveled">Kilometraje recorrido:</string>
+    <string name="route_name">Nombre de ruta:</string>
+    <string name="used_time">Duración ruta:</string>
+    <string name="visit_number">Número de visitas:</string>
+    <string name="route_complete_information">Información de ruta completada.</string>
+    <string name="work_order_complete">Información de orden de trabajo completada.</string>
+    <string name="check_in_finalize">Esta a punto de finalizar el check in, volverá a estar en ruta.
+    </string>
+    <string name="lorem_ipsum">Lorem Ipsum is simply dummy text of the printing and typesetting
+        industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s
+    </string>
+    <string name="lorem_ipsum_title">Lorem Ipsum is simply dummy text.</string>
+    <string name="completed_route">Ruta completada.</string>
+    <string name="completed_order">Orden de trabajo completada.</string>
+    <string name="check_rol_explanation">Para cambiar de rol debe finalizar la ruta.</string>
+    <string name="user_name">Nombre de usuario</string>
+    <string name="account_name">Nombre de la cuenta</string>
+    <string name="profile_name">Nombre del perfil</string>
+    <string name="visit_time">Tiempo de visita:</string>
+    <string name="route_time">Tiempo de viaje:</string>
+    <string name="work_order_status">¿Está finalizada la Orden de Trabajo?</string>
+
+
+    <string name="welcome">Welcome %s</string>
+    <string name="logout_button">Logout</string>
+    <string name="fetch_contacts_button">Fetch Contacts</string>
+    <string name="fetch_accounts_button">Fetch Accounts</string>
+    <string name="clear_button">Clear</string>
+    <string name="seller">Vendedor</string>
+    <string name="search">Buscar</string>
+    <string name="technical">Técnico</string>
+    <string name="my_orders">Mis ordenes</string>
+    <string name="candidates">Mis candidatos</string>
+    <string name="my_work_orders">Mis ordenes de trabajo</string>
+    <string name="account_description">Descripción de la cuenta</string>
+    <string name="work_order_description">Descripción de la orden de trabajo</string>
+    <string name="you_should_start_the_route">Debe iniciar la ruta antes de realizar esta acción
+    </string>
+    <string name="no_address_title">Sin dirección</string>
+    <string name="no_address_description">Este cliente no tiene coordenadas registradas en el sistema.
+        Se registrarán las coordenadas de su dirección.
+    </string>
+    <string name="no_address_description_leads">Este candidato no tiene coordenadas registradas en el
+        sistema. Se registrarán las coordenadas de su dirección
+    </string>
+    <string name="finalize">Finalizar Visita</string>
+    <string name="in_process">Visita en proceso</string>
+    <string name="start_date_tag">Fecha y hora de inicio</string>
+    <string name="electronic_signature">Firma electrónica</string>
+    <string name="address_detail">Detalle de la dirección</string>
+    <string name="select_an_address">Seleccione una dirección para continuar</string>
+    <string name="no_address_to_show">No existen direcciones para mostrar</string>
+    <string name="select_visit_type">Seleccione el tipo de visita</string>
+    <string name="no_check_in_available">No se puede hacer Check in, ya que no se encuentra dentro del radio aprobado</string>
+    <string name="getting_contact_list">Obteniendo la lista de contactos&#8230;</string>
+    <string name="select_contact">Seleccione un contacto</string>
+    <string name="no_contacts_available">La cuenta no posee contactos</string>
+    <string name="contact_list_no_got">No fue posible obtener la lista de contactos</string>
+    <string name="visit_description">Descripción de visita</string>
+    <string name="visit_description_message">Describa o comente la visita realizada</string>
+    <string name="text_description">Descripción</string>
+    <string name="no_description_typed">Olvidó describir o comentar la visita para finalizar</string>
+    <string name="no_leads_to_show">No existen candidatos para mostrar</string>
+    <string name="no_contacts_to_show">No existen cuentas para mostrar</string>
+    <string name="no_work_orders_to_show">No existen ordenes de trabajo para mostrar</string>
+    <string name="technical_main_check_fail">No fue posible verificar quien es el técnico principal de
+        la orden de trabajo seleccionada
+    </string>
+    <string name="text_search">Digite su búsqueda</string>
+    <string name="text_no_result">Sin resultados para mostrar</string>
+    <string name="text_result">Resultados</string>
+    <string name="text_clear">Limpiar</string>
+    <string name="text_no_radius">No fue posible obtener la configuración del radio de validación
+    </string>
+    <string name="text_no_route_created">La ruta no pudo ser creada</string>
+    <string name="text_no_route_finalize">La ruta no pudo ser finalizada</string>
+    <string name="text_visit_overview">Resumen de visita</string>
+    <string name="text_visit_time">Tiempo de visita</string>
+    <string name="text_visit_type">Tipo de visita</string>
+    <string name="text_visit_description">Comentarios</string>
+    <string name="text_contact">Contacto visitado</string>
+    <string name="text_close_route_to_finalize">Debe finalizar la ruta para cerrar sesión</string>
+    <string name="text_close_session">¿Desea finalizar su sesión?</string>
+    <string name="no_address_in_this_lead">No puede realizar check in debido a que este candidato no
+        tiene una dirección registrada
+    </string>
+    <string name="text_is_principal">Principal:</string>
+    <string name="text_sending_route_data">Enviando datos de la ruta&#8230;</string>
+    <string name="text_route_data_sent">Datos de la ruta enviados con exito</string>
+    <string name="text_route_no_saved">La ruta no pudo ser almacenada.\nFavor chequee su conexión a internet, si el problema persiste favor contactar al administrador del sistema Salesforce.</string>
+    <string name="text_data_no_saved_info">La %1$s no pudo ser almacenada.\nFavor chequee su conexión a internet, si el problema persiste favor contactar al administrador del sistema Salesforce.\n%2$s</string>
+    <!--<string name="text_data_no_saved_info">La %1$s no pudo ser almacenada. %2$s</string>-->
+    <string name="text_work_order_status_no_updated">El status de la orden de trabajo no pudo ser
+        actualizado
+    </string>
+    <string name="text_work_order_updating_status">Actualizando el status de la orden de trabajo&#8230;</string>
+    <string name="sing_no_saved">No se pudo guardar su firma. El archivo de la imagen no pudo ser creado</string>
+    <string name="no_contacts">Usted no posee contactos para realizar check in</string>
+    <string name="no_contacts_in_account">La cuenta no posee contactos para realizar check in</string>
+    <string name="phone">Teléfono:</string>
+    <string name="text_close_session_b">La información de rutas no finalizadas no serán guardadas en
+        Salesforce. ¿Desea finalizar su sesión?
+    </string>
+    <string name="yes">SI</string>
+    <string name="no">NO</string>
+    <string name="digital_signature_available">¿Hay firma disponible?</string>
+    <string name="signature_justification_question">¿Por qué no se incluirá la firma?</string>
+    <string name="signature_justification">Ingrese la justificación.</string>
+    <string name="who_signs">Nombre y Apellido de quien recibe</string>
+    <string name="recently_viewed">Vistos Recientemente</string>
+    <string name="lastest_work_orders">Últimas ordenes de trabajo</string>
+    <string name="search_result">Se encontró %1$d resultado con el filtro \"%2$s\"</string>
+    <string name="search_results">Se encontraron %1$d resultados con el filtro \"%2$s\"</string>
+    <string name="no_search_results">No se encontraron resultados con el filtro \"%1$s\"</string>
+    <string name="search_data">Ingrese el nombre %1$s a buscar</string>
+
+    <string name="no_connection">Conexión a internet inestable, por favor intenta de nuevo.</string>
+    <string name="salesforce_error">Ocurrió un error al establecer la conexión con Salesforce, intente nuevamente.
+    </string>
+    <string name="no_internet">No posee conexión a Internet.</string>
+    <string name="no_internet_desc">Verifique su conexión a Internet, luego intente cerrando y abriendo la aplicación nuevamente.</string>
+
+    <string-array name="visit_type">
+        <item>Seguimiento</item>
+        <item>Prospecto</item>
+        <item>Cobro</item>
+        <item>Mensajería</item>
+        <item>Entrega</item>
+        <item>Oficina</item>
+        <item>Transporte</item>
+        <item>Demostración</item>
+    </string-array>
+
+    <!-- USER ACTIONS STRINGS-->
+    <string name="user_profile_success">User profile obtenido con éxito</string>
+    <string name="custom_setting_success">User custom settings obtenidas con éxito</string>
+    <string name="login_success">Sesión iniciada con éxito</string>
+    <string name="logout_success">Sesión finalizada con éxito</string>
+    <string name="check_in_success">Visita registrada con éxito en la base de datos local</string>
+    <string name="route_register_success">Ruta registrada en SalesForce con éxito</string>
+    <string name="route_visit_sent_to_sales_force">Visitas enviadas a Salesforce</string>
+    <string name="route_visits_register_success">Visitas registradas con éxito en Salesforce. Id de ruta asociada:</string>
+    <string name="back_up_start">Envío de reporte de errores iniciado</string>
+    <string name="back_up_finish_success">Envío de reporte de errores finalizado con éxito</string>
+    <string name="route_created_local">Ruta creada localmente. Id local de ruta</string>
+    <string name="route_from_local_storage">Ruta restaurada desde base de datos local. Id local de ruta</string>
+    <string name="account_search">Búsqueda de cuenta. Término de búsqueda:</string>
+    <string name="lead_search">Búsqueda de candidato. Término de búsqueda:</string>
+    <string name="work_order_search">Búsqueda de orden de trabajo. Término de búsqueda:</string>
+    <string name="signature_request">Solicitud de firma para la orden de trabajo con Id:</string>
+    <string name="signature_saved">Firma almacenada con éxito. Orden de trabajo con Id:</string>
+    <string name="signature_saved_error">Error almacenando la firma. El archivo de la imagen no pudo ser creado. Orden de trabajo con Id:</string>
+    <string name="signature_justification_message">Justificación de falta  de firma almacenada con éxito</string>
+    <string name="signature_explanation">Justificación de firma electrónica</string>
+    <string name="gps_disable">El GPS fue desactivado</string>
+    <string name="gps_enable">El GPS fue activado</string>
+    <string name="wifi_enable">Conectado con WIFI</string>
+    <string name="mobile_data_enable">Conectado con datos móviles</string>
+    <string name="wifi_disable">Sin conexión a Internet</string>
+    <string name="device_no_connected">Dispositivo no conectado a ninguna red</string>
+    <string name="restored_route">Ruta restaurada desde background</string>
+    <string name="restored_check_in">Registro de visita restaurado desde background</string>
+    <string name="log_out">El usuario finalizó su sesión</string>
+    <string name="check_in_start">Inicio de registro de visita</string>
+    <string name="check_in_end">Registro de visita finalizado</string>
+    <string name="work_order_status_change_send">Actualización de status de orden de trabajo enviada</string>
+    <string name="work_order_status_change_success">Actualización de status de orden de trabajo finalizada con éxito</string>
+    <string name="contact_selected">Contacto seleccionado para la visita</string>
+    <string name="visit_description_action">Descripción de visita digitada</string>
+    <string name="back_up_question">¿Realmente desea enviar un reporte de errores?</string>
+    <string name="clean_database_question">Si presiona aceptar eliminará todos los registros de la base de datos. ¿Realmente desea eliminar todos los registros de la base de datos local?</string>
+    <string name="send_report">Enviar reporte</string>
+    <string name="profile_information">Consulta de información de perfil</string>
+    <string name="work_order_query">Consulta de ordenes de trabajo abiertas o en proceso</string>
+    <string name="text_an_active_route_exist">No es posible iniciar una nueva ruta debido a que existe una ruta sin finalizar</string>
+    <string name="current_odometer_data">Kilometraje actual</string>
+    <string name="current_odometer_data_message">Digite el Kilometraje de su auto (Km)</string>
+    <string name="current_odometer">Kilometraje</string>
+    <string name="end_odometer_grater_than_start_odometer">El kilometraje final debe ser mayor al inicial</string>
+    <string name="current_odometer_grater_than_start_odometer">El kilometraje actual debe ser mayor al inicial</string>
+    <string name="error_cleaning_data_base">Error tratando de limpiar la base de datos. Total de elementos eliminados:</string>
+    <string name="odometer_grater_than_start_odometer">El kilometraje debe ser mayor al registrado al inicio de la ruta</string>
+    <string name="database_cleaned">Limpieza en base de datos de registros superiores a</string>
+    <string name="search_success">Búsqueda realizada con éxito</string>
+    <string name="data_base_cleaned">La base de datos fue limpiada con éxito. Total de elementos eliminados:</string>
+    <string name="user_token_updated">Token de sesión actualizado</string>
+    <string name="work_order_finalized">Esta finalizada la orden de trabajo: si</string>
+    <string name="work_order_no_finalized">Esta finalizada la orden de trabajo: no</string>
+    <string name="signature_available">Firma disponible: si</string>
+    <string name="signature_no_available">Firma disponible: no</string>
+    <string name="signature_image_file_error">Error creando el archivo para guardar la firma.</string>
+    <string name="who_sign_signature_empty">Digite el nombre y apellido de quien recibe</string>
+    <string name="signature_empty">La firma esta vacía</string>
+    <string name="signature_error_dialog_message">Hemos detectado problemas generando la firma electronica, favor seleccione la opcion "Sin firma Electronica", envie su reporte de error y contacte a su Administrador Salesforce</string>
+    <string name="signature_status_update_error">La firma esta vacía</string>
+    <string name="open_work_orders">Ordenes de trabajo abiertas: </string>
+    <string name="open_work_orders_found">Ordenes de trabajo filtradas para mostrar:</string>
+    <string name="no_rout_started_in_work_oder_selection">Seleccionó la orden de trabajo sin iniciar ruta</string>
+    <string name="leads_found">Candidatos encontrados para mostrar: </string>
+    <string name="no_rout_started_in_lead_selection">Seleccionó el cadidato sin iniciar ruta</string>
+    <string name="account_address_get">Direcciones de cuenta obtenidas con éxito</string>
+    <string name="account_found">Cuentas encontradas para mostrar: </string>
+    <string name="address_account_found">Direcciones de cuenta encontradas para mostrar: </string>
+    <string name="no_rout_started_in_account_address_selection">Seleccionó la dirección de la cuenta sin iniciar ruta</string>
+</resources>

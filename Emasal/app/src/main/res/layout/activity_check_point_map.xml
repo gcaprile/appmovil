@@ -1,0 +1,158 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:CircleProgressView="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <fragment
+            android:id="@+id/map"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context="com.app.checkinmap.ui.activity.CheckPointMapActivity" />
+
+        <LinearLayout
+            android:id="@+id/linear_layout_check_progress"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:background="@color/colorBlackTransparent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:visibility="gone">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorWhite"
+                android:text="@string/in_process"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:textSize="26sp"/>
+
+
+            <TextView
+                android:id="@+id/text_view_start_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorWhite"
+                android:text="2018/04/11 10:10:10"
+                android:layout_marginTop="40dp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:id="@+id/text_view_date_tag"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorWhite"
+                android:text="@string/start_date_tag"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:textSize="10sp"/>
+
+            <!--<FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <at.grabner.circleprogress.CircleProgressView
+                    android:id="@+id/circleView"
+                    android:layout_width="277dp"
+                    android:layout_height="277dp"
+                    android:layout_gravity="center"
+                    CircleProgressView:cpv_barColor="@color/colorWhite"
+                    CircleProgressView:cpv_rimColor="@color/colorWhite"
+                    CircleProgressView:cpv_barWidth="35dp"
+                    CircleProgressView:cpv_showTextInSpinningMode="true"
+                    CircleProgressView:cpv_text="@string/in_process"
+                    CircleProgressView:cpv_textMode="Text"
+                    CircleProgressView:cpv_textColor="@color/colorGray"
+                    CircleProgressView:cpv_spin="true"
+                    CircleProgressView:cpv_outerContourSize="0dp"
+                    CircleProgressView:cpv_innerContourSize="0dp"
+                    CircleProgressView:cpv_blockCount="18"
+                    CircleProgressView:cpv_blockScale="0.9"
+                    CircleProgressView:cpv_spinBarLength="20"
+                    CircleProgressView:cpv_spinColor="@color/colorBlue" />
+
+
+
+            </FrameLayout>
+
+           <Chronometer
+                android:id="@+id/chronometer_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginBottom="30dp"
+                android:gravity="center"
+                android:text="@string/initial_time"
+                android:textColor="@color/colorText"
+                android:textSize="60sp" />-->
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorBlue"
+        android:elevation="2dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/button_check"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ripple_effect"
+            android:clickable="true"
+            android:gravity="center"
+            android:minHeight="50dp"
+            android:text="@string/check_in"
+            android:textAllCaps="true"
+            android:textColor="@color/colorText"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_layout_progress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="2dp"
+        android:background="@color/colorPrimary"
+        android:orientation="vertical">
+
+        <ProgressBar
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-7dp"
+            android:indeterminate="true"
+            android:indeterminateTint="@color/colorAccent" />
+
+        <TextView
+            android:id="@+id/map_progress_message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:minHeight="50dp"
+            android:text="@string/getting_your_location"
+            android:textColor="@color/colorText" />
+    </LinearLayout>
+
+</LinearLayout>
+
+

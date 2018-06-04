@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical"
+  tools:context="com.app.checkinmap.ui.activity.MyAccountsActivity">
+
+  <TextView
+    android:id="@+id/my_accounts_subtitle"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="15dp"
+    android:text="@string/search_data"
+    android:textAllCaps="false"
+    android:textColor="@color/colorBlue" android:textSize="16sp"
+    android:textStyle="bold" android:visibility="gone"/>
+
+  <FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.RecyclerView
+      android:id="@+id/rcv_accounts"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:visibility="gone"/>
+
+    <ProgressBar
+      android:id="@+id/progress_bar"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:indeterminateTint="@color/colorPrimary"/>
+
+    <TextView
+      android:id="@+id/text_view_message"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:layout_marginEnd="20dp"
+      android:layout_marginStart="20dp"
+      android:textStyle="bold"
+      android:visibility="gone"
+      tools:text="Error message"/>
+
+  </FrameLayout>
+</LinearLayout>
